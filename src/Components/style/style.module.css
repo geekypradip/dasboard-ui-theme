@@ -1,0 +1,147 @@
+.profilePic {
+  width: 60%;
+  border-radius: 50%;
+}
+.SideNavBarContainer {
+  width: 70px;
+
+  height: 100vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 1px 3px 5px #97989c;
+  position: sticky;
+  top: 0;
+}
+.navIconHolder {
+  /* border: 1px solid black; */
+  height: 50vh;
+  width: 100%;
+}
+.navIconHolder > div {
+  /* border: 1px solid black; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navIconHolder > div > i {
+  border-bottom: 1px solid #776e6e;
+  padding: 2px;
+  color: #87898e;
+}
+.profilePicHolder {
+  text-align: center;
+}
+.navLastPlusSignHolder {
+  text-align: center;
+  width: 60%;
+  padding-bottom: 10px;
+  /* border: 1px solid black; */
+}
+.navLastPlusSignHolder div {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.navLastPlusSignHolder > div > i {
+  color: #55cc98;
+  font-size: 30px;
+}
+body {
+  background: #f5f6fa;
+}
+.wrapper {
+  display: flex;
+}
+.ContentWrapper {
+  margin-left: 20px;
+  width: 400px;
+  background-color: transparent;
+  /* border: 1px solid; */
+}
+.headingContainer {
+  /* color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  background: rgb(255, 255, 255);
+  height: 170px;
+  margin-top: 0.5%;
+  border-radius: 2px;
+}
+.state {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.state span {
+  color: rgb(190, 184, 184);
+}
+img {
+  width: 30px;
+  border-radius: 50%;
+}
+.dp_and_add {
+  display: flex;
+  font-size: 12px;
+  color: rgb(102, 101, 101);
+}
+.userHoolder {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  align-items: center;
+}
+.userHoolder i {
+  font-size: 10px;
+  color: rgb(134, 128, 128);
+}
+.bar {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  height: 8px;
+  background: rgb(165, 160, 160);
+  border-radius: 20px;
+}
+.fillBar {
+  height: 100%;
+  background: chartreuse;
+  border-radius: 20px;
+  width: 70%;
+}
+.level {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.level > div:nth-child(1) {
+  color: rgb(102, 99, 99);
+}
+.level > div:nth-child(2) {
+  font-weight: bold;
+}
+.theme {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+/* <i class="fas fa-moon"></i> */
+.dark {
+  filter: invert(100%);
+  background: rgb(207, 203, 203);
+}
+.dark img {
+  filter: invert(100%);
+}
+body {
+  margin: 0;
+}
